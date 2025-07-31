@@ -48,5 +48,14 @@ Okay, when you're working on a project and you want to push your project on GITH
 To see which GitHub accounts are connected
 >git remote -v
 
-Now  to push it on GitHub
+Now  to push it to GitHub
 >git push origin master
+
+When you link to others, GitHub upstream is used
+>git remote add upstream https://github.com/commclassroom/commclassroomOP.git
+
+To create a new branch
+>git branch name
+
+To point to that branch
+>git checkout name
