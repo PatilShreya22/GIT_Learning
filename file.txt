@@ -1,1 +1,20 @@
 
+Hey Shreya Bharamanna Patil here!
+Currently learning new basic git
+
+so to create a .git repository, you need to go to the folder where your project is currently going on and in there type following command
+>git init
+
+To see the status of your repository, you can use the following command
+>git status
+
+To add untraced files to the folder, you can use
+>git add .  //This will add everything present in your  OR
+>git add filename
+
+
+To commit the changes that you made in your project
+>git commit -m "Message you want to convey"
+
+To remove from the stage, use the following command
+>git restore --staged filename
