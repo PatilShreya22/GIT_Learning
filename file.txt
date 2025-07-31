@@ -29,3 +29,12 @@ By mistake, if you delete the file and now you want to bring it back
 >git add .
 >git stash
 >git status
+
+
+If you don't want to commit the changes but also don't want to lose the changes as well, for that
+>git status
+>git add .
+>git stash
+
+TO bring them back, just do
+>git stash pop
