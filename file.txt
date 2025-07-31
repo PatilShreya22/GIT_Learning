@@ -38,3 +38,15 @@ If you don't want to commit the changes but also don't want to lose the changes 
 
 TO bring them back, just do
 >git stash pop
+
+To remove them from the stage
+>git stash clear
+
+Okay, when you're working on a project and you want to push your project on GITHUB for that
+>git remote add origin https://github.com/PatilShreya22/GIT_Learning.git
+
+To see which GitHub accounts are connected
+>git remote -v
+
+Now  to push it on GitHub
+>git push origin master
