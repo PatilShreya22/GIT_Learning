@@ -2,7 +2,7 @@
 Hey Shreya Bharamanna Patil here!
 Currently learning new basic git
 
-so to create a .git repository, you need to go to the folder where your project is currently going on and in there type following command
+So to create a .git repository, you need to go to the folder where your project is currently going on and in there type the following command
 >git init
 
 To see the status of your repository, you can use the following command
@@ -18,3 +18,14 @@ To commit the changes that you made in your project
 
 To remove from the stage, use the following command
 >git restore --staged filename
+
+Everything will be saved in the git logs, just type
+>git log
+
+By mistake, if you delete the file and now you want to bring it back
+>git log -->Copy the hash code you wish to invoke(You can't just take out any the stacked commits will be deleted)
+>git reset hash code
+>git status
+>git add .
+>git stash
+>git status
